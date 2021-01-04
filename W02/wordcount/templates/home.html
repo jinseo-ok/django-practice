@@ -1,9 +1,9 @@
 <h1>WORD COUNTER</h1>
 
 
-<a href="">ABOUT</a>
+<a href="{%url 'about'%}">ABOUT</a>
 
-<form action = ''>
+<form action = "{% url 'result' %}">
     <textarea cols = '40' rows = '10' name = 'fulltext'>
 
     </textarea>
